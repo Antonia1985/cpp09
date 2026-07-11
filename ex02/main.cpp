@@ -10,7 +10,6 @@ int main(int ac, char**av)
     }
 
     std::string numberStr;
-
     for (int i = 1; i < ac; i++)
     {
         numberStr += std::string(av[i]) + " ";
